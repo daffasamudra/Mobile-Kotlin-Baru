@@ -26,6 +26,7 @@ fun randomDay(): String {
     return days.random()
 }
 
+
 fun fishFood(day: String): String {
     return when (day) {
         "Monday" -> "Pellets"
